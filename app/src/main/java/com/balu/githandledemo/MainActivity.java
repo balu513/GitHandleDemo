@@ -14,4 +14,14 @@ public class MainActivity extends AppCompatActivity {
         // commit from git one
         // from desktop
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
 }
