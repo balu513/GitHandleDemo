@@ -14,4 +14,14 @@ public class MainActivity extends AppCompatActivity {
         // commit from git one
         // from desktop
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
 }
